@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2017-09-18T05:18:33Z" finished-at="2017-09-18T05:18:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2017-09-18T05:18:33Z" finished-at="2017-09-18T05:18:33Z">
+      <class name="mypackage.NewTest">
+        <test-method status="PASS" signature="extendReportSetUp()[pri:0, instance:mypackage.NewTest@51081592]" name="extendReportSetUp" is-config="true" duration-ms="216" started-at="2017-09-18T00:18:32Z" finished-at="2017-09-18T00:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendReportSetUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:mypackage.NewTest@51081592]" name="f" duration-ms="15" started-at="2017-09-18T00:18:33Z" finished-at="2017-09-18T00:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:mypackage.NewTest@51081592]" name="getResult" is-config="true" duration-ms="16" started-at="2017-09-18T00:18:33Z" finished-at="2017-09-18T00:18:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=f status=SUCCESS method=NewTest.f()[pri:0, instance:mypackage.NewTest@51081592] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:mypackage.NewTest@51081592]" name="writeReport" is-config="true" duration-ms="380" started-at="2017-09-18T00:18:33Z" finished-at="2017-09-18T00:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- mypackage.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
