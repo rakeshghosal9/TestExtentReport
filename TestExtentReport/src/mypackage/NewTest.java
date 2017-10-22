@@ -29,6 +29,7 @@ public class NewTest {
 	  
 	  test = extent.createTest("Bulk Login Test","This is a set of test cases with valid and invalid login credentials");
 	  System.out.println("Git Change");
+	  System.out.println("Another Change");
   }
   
   @BeforeSuite
