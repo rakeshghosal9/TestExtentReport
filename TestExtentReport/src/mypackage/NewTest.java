@@ -33,6 +33,7 @@ public class NewTest {
 	  System.out.println("Another 2 Change");
 	  System.out.println("New Branch Creation");
 	  System.out.println("Updating to branch");
+	  System.out.println("After merging to branch");
   }
   
   @BeforeSuite
