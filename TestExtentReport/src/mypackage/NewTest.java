@@ -39,6 +39,8 @@ public class NewTest {
   @BeforeSuite
   public void extendReportSetUp()
   {
+	System.out.println("Setting up extent report");
+	System.out.println("------------------------------------------------------------------------");
   	htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/ExtentReport/GeneratedExtentReport.html");
   	extent = new ExtentReports();
   	extent.attachReporter(htmlReporter);
